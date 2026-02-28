@@ -4,12 +4,12 @@ A backend service that identifies and consolidates contact information across mu
 
 ## Live Endpoint
 
-**Base URL:** _https://bitespeed-backend-gsin.onrender.com_
+**Base URL:** _https://bitespeed-identity-reconciliation-ohbp.onrender.com_
 
 ### `POST /identify`
 
 ```bash
-curl -X POST https://bitespeed-backend-gsin.onrender.com/identify \
+curl -X POST https://bitespeed-identity-reconciliation-ohbp.onrender.com/identify \
   -H "Content-Type: application/json" \
   -d '{"email": "mcfly@hillvalley.edu", "phoneNumber": "123456"}'
 ```
